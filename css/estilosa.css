@@ -1,0 +1,41 @@
+body{
+    font-family: "Libre Caslon Condensed", serif; 
+    background-color: #F7F1E8;
+    color: beige;
+}
+header{
+    background-color: #263238;
+    color: beige;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none; /*quita el subrayado*/
+    font-weight: bold;
+}
+h1{
+    color: #263238;
+     border-bottom: 2px solid #263238;
+}
+
+footer{
+    background-color: #423041;
+    color:white;
+    text-align: center;
+    font-size: 14px;
+}
+b{
+    color: #c4cacd;
+}
+p{
+    color: rgb(187, 182, 182);
+}
+nav{
+    display: flex;
+    justify-content:center;
+    gap: 25px;
+    padding: 15px;
+    color: #060009;
+}
+
+nav a:hover {text-decoration: underline;}
